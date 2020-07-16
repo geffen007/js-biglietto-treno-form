@@ -1,11 +1,5 @@
-
-
-
-
-
 var genera = document.getElementById('genera');
 var annulla = document.getElementById('annulla');
-
 
 genera.addEventListener("click", function() {
     var nomeCognome = document.getElementById("nome-cognome").value;
