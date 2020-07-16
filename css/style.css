@@ -10,8 +10,31 @@
     clear: both;
 }
 
+h2 {
+    padding: 20px;
+}
+
+button {
+    border-radius: 5px;
+    border: 2px solid #b91450;
+    padding: 5px;
+    font-family: 'Rowdies', cursive;
+    color: #b91450;
+}
+
+button:hover {
+    color: white;
+    background-color: #b91450;
+}
+
+input, select {
+    border-radius: 5px;
+    height: 30px;
+}
+
 body {
     background-color: #b91450;
+    font-family: 'Rowdies', cursive;
 }
 
 
@@ -27,14 +50,24 @@ h2 {
 }
 
 
+
 .input {
     background-color: white;
     border-radius: 10px;
     width: 100%;
     min-height: 100px;
     padding: 40px;
+    box-shadow: 1px 1px 8px;
 }
 
+.item-input {
+    align-items: center;
+}
+
+label {
+    padding-bottom: 10px;
+    color: #b91450;
+}
 .dati {
     justify-content: space-around;
 }
@@ -78,6 +111,11 @@ h2 {
     border-bottom: 2px solid #808080;
     justify-content: space-between;
     height: 110px;
+}
+
+.item-output{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .nome {

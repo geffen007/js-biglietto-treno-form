@@ -3,23 +3,23 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
         <title>Biglietto del treno</title>
     </head>
     <body>
         <div class="container">
             <h2>Calcola il prezzo del tuo biglietto</h2>
-
             <div class="input flex column">
                 <div class="dati flex">
-                    <div class="nome-cognome flex column">
+                    <div class="item-input flex column">
                         <label>Nome Cognome</label>
                         <input type="text" id="nome-cognome">
                     </div>
-                    <div class="km flex column">
+                    <div class="item-input flex column">
                         <label>Km da percorrere</label>
                         <input type="number" id="km">
                     </div>
-                    <div class="eta flex column">
+                    <div class="item-input flex column">
                         <label>Fascia d'età</label>
                         <select id="eta">
                             <option value="0">minorenni</option>
@@ -36,46 +36,30 @@
             <h2>il tuo biglietto</h2>
             <div id="ticket-out" class="output hidden">
                 <span>DETTAGLIO PASSEGGERI</span>
-                <div class="dati-biglietto flex">
-                    <div class="nome flex column sb">
+                <div class=" dati-biglietto flex">
+                    <div class="item-output nome flex column sb">
                         <h3>Nome Passeggero</h3>
                         <div id="nome-pass">Nome e Cognome</div>
-
                     </div>
-                    <div class="offerta flex column sb">
+                    <div class="item-output offerta flex column sb">
                         <h3>Offerta</h3>
                         <div id="off-sel">Offerta</div>
-
                     </div>
-                    <div class="carrozza flex column sb">
+                    <div class="item-output carrozza flex column sb">
                         <h3>Carrozza</h3>
                         <div id="vagone">Carrozza N.</div>
-
                     </div>
-                    <div class="codice-CP flex column sb">
+                    <div class="item-output codice-CP flex column sb">
                         <h3>Codice CP</h3>
                         <div id="cp">Codice</div>
-
                     </div>
-                    <div class="costo flex column sb">
+                    <div class="item-output costo flex column sb">
                         <h3>Costo Biglietto</h3>
                         <div id="price">costo tot</div>
-
                     </div>
-
-
                 </div>
-
             </div>
-
-
-
-
         </div>
-
-
     <script src="js/script.js" charset="utf-8"></script>
-
-
     </body>
 </html>
