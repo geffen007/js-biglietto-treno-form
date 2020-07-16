@@ -52,9 +52,15 @@ h2 {
     padding: 40px;
 }
 
-/* .hidden  {
-    display: none;
-} */
+.hidden  {
+    opacity: 0;
+    transition: 1s;
+}
+
+.visible {
+    opacity: 1;
+    transition: 1s;
+}
 
 .sb {
     justify-content: space-between;

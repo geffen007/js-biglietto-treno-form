@@ -29,5 +29,18 @@ genera.addEventListener("click", function() {
     document.getElementById('price').innerHTML=costoTot;
     document.getElementById('off-sel').innerHTML=offerta;
 
+    var biglietto = document.getElementById('ticket-out');
+    biglietto.classList.remove("hidden");
+    biglietto.classList.add("visible");
+}
+)
+
+annulla.addEventListener("click", function() {
+    var nomeCognome = document.getElementById("nome-cognome").value="";
+    var km = document.getElementById('km').value="";
+    var eta = document.getElementById('eta').value="";
+    var biglietto = document.getElementById('ticket-out');
+    biglietto.classList.remove("visible");
+    biglietto.classList.add("hidden");
 }
 )
