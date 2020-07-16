@@ -20,6 +20,7 @@ button {
     padding: 5px;
     font-family: 'Rowdies', cursive;
     color: #b91450;
+    margin: 0 10px;
 }
 
 button:hover {
@@ -30,6 +31,7 @@ button:hover {
 input, select {
     border-radius: 5px;
     height: 30px;
+    padding-left: 10px;
 }
 
 body {
@@ -82,17 +84,17 @@ label {
 
 .buttons {
     justify-content: center;
-    padding: 40px;
+    padding-top: 40px;
 }
 
 .hidden  {
     opacity: 0;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 .visible {
     opacity: 1;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 .sb {
