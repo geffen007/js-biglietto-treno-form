@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    background-color: #b91450;
+}
+
+
+.container {
+    max-width: 805px;
+    margin: 0 auto;
+    height: 100px; /* da cancellare */
+}
+h2 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.input {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 100px;
+    padding: 40px;
+}
+
+.dati {
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.buttons {
+    justify-content: center;
+    padding: 40px;
+}
+
+/* .hidden  {
+    display: none;
+} */
+
+.sb {
+    justify-content: space-between;
+}
+
+.output {
+    background-color: white;
+    border-radius: 5px;
+    min-height: 100px;
+    padding: 40px;
+}
+
+.dati-biglietto {
+    border-top: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.nome {
+    background-color: #808080;
+    height: 100%;
+
+}

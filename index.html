@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Biglietto del treno</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Calcola il prezzo del tuo biglietto</h2>
+
+            <div class="input flex column">
+                <div class="dati flex">
+                    <div class="nome-cognome flex column">
+                        <label for="nomecognome">Nome Cognome</label>
+                        <input type="text" id="nome-cognome" value="Nome e Cognome">
+                    </div>
+                    <div class="km flex column">
+                        <label for="km">Km da percorrere</label>
+                        <input type="text" id="nome-cognome" value="km da percorrere">
+                    </div>
+                    <div class="eta flex column">
+                        <label for="eta">Fascia d'età</label>
+                        <select id="eta" name="eta">
+                            <option value="0">minorenni</option>
+                            <option value="1">maggiorenni</option>
+                            <option value="2">over 65</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="buttons flex">
+                    <button type="button" id="genera" >Genera</button>
+                    <button type="button" id="annulla">Annulla</button>
+                </div>
+            </div>
+            <h2>il tuo biglietto</h2>
+            <div class="output hidden">
+                <span>DETTAGLIO PASSEGGERI</span>
+                <div class="dati-biglietto flex">
+                    <div class="nome flex column sb">
+                        <h3>Nome Passeggero</h3>
+                        <div id="nome-pass">Nome e Cognome</div>
+
+                    </div>
+                    <div class="offerta flex column sb">
+                        <h3>Offerta</h3>
+                        <div id="off-sel">Offerta</div>
+
+                    </div>
+                    <div class="carrozza flex column sb">
+                        <h3>Carrozza</h3>
+                        <div id="vagone">Carrozza N.</div>
+
+                    </div>
+                    <div class="codice-CP flex column sb">
+                        <h3>Codice CP</h3>
+                        <div id="cp">Codice</div>
+
+                    </div>
+                    <div class="costo flex column sb">
+                        <h3>Costo Biglietto</h3>
+                        <div id="price">costo tot</div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </body>
+</html>
