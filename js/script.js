@@ -29,6 +29,9 @@ genera.addEventListener("click", function() {
     document.getElementById('price').innerHTML=costoTot.toFixed(2) + " €";
     document.getElementById('off-sel').innerHTML=offerta;
 
+
+
+
     // interagiamo sul css
     var biglietto = document.getElementById('ticket-out');
     biglietto.classList.remove("hidden");

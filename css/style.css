@@ -30,8 +30,10 @@ button:hover {
 
 input, select {
     border-radius: 5px;
+    border: 1px solid #b91450;
     height: 30px;
     padding-left: 10px;
+    width: 140px;
 }
 
 body {
@@ -60,6 +62,11 @@ h2 {
     min-height: 100px;
     padding: 40px;
     box-shadow: 1px 1px 8px;
+}
+
+input:focus {
+    background-color: #b91450;
+    color: white;
 }
 
 .item-input {
